@@ -1,0 +1,49 @@
+
+
+h1{
+
+    color: rebeccapurple;
+
+    text-align: center;
+}
+
+#show-country{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+}
+.country{
+
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    
+}
+
+.country-name{
+
+    font-size:  45px;
+
+    color:salmon;
+}
+
+#countryDetails img{
+
+    width: 400px;
+   
+}
+
+#countryDetails {
+
+    border: 1px solid salmon;
+    
+    width: 400px;
+   text-align: center;
+
+   padding: 10px;
+
+
+}
